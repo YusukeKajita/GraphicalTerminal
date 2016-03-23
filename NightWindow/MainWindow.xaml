@@ -1,7 +1,7 @@
 ﻿<Window x:Class="NightWindow.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" BorderBrush="Black" Cursor="IBeam" PreviewKeyDown="MainWindow_PreviewKeyDown">
+        Title="Night Window" Height="350" Width="525" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" BorderBrush="Black" Cursor="IBeam" PreviewKeyDown="MainWindow_PreviewKeyDown">
     <Grid Background="#99000000" >
     <Grid Margin="10">
         <Grid.RowDefinitions>
