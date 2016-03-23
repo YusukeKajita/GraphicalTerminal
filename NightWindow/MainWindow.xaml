@@ -1,16 +1,16 @@
 ﻿<Window x:Class="NightWindow.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Night Window" Height="350" Width="525" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" BorderBrush="Black" Cursor="IBeam" PreviewKeyDown="MainWindow_PreviewKeyDown">
+        Title="Night Window" Height="350" Width="525" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" BorderBrush="Black" Cursor="Arrow" PreviewKeyDown="MainWindow_PreviewKeyDown">
     <Grid Background="#99000000" >
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-        <DockPanel>
+        <DockPanel Cursor="Arrow">
             <StackPanel x:Name="StackPanel_Log" VerticalAlignment="Bottom">
-                <TextBlock x:Name="TextBlock_Log"/>
+                <TextBlock x:Name="TextBlock_Log" Cursor="Arrow"/>
             </StackPanel>
         </DockPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="1">
